@@ -200,11 +200,19 @@ body {
     }
 
     .container .circle::after {
-        inset: 145px -65px;
-        font-size: 1.5em;
+        content: 'Merry Christmas To all ALX Software Engineers 2023';
+        position: absolute;
+        top: 50%; /* Center vertically */
+        left: 50%; /* Center horizontally */
+        transform: translate(-50%, -50%);
+        width: 80%; /* Adjust width as needed */
+        text-align: center;
+        font-size: 1.5em; /* Adjust font size for mobile */
     }
 
     .container::before {
         height: 100px;
+        background-size: cover; /* Ensure the tree image covers the area */
+        background-position: bottom; /* Align the image to the bottom */
     }
 }
