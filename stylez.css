@@ -217,7 +217,7 @@ body {
     }
 
     .container::before {
-        height: 200px;
+        height: 100px;
     }
 
     footer p {
