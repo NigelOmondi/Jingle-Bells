@@ -202,7 +202,7 @@ body {
     }
 
     .container .circle::before {
-        background-size: 500px;
+        background-size: 300px;
     }
 
     .container .circle::after {
