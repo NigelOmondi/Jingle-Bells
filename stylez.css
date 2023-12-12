@@ -202,7 +202,7 @@ body {
     }
 
     .container .circle::before {
-        background-size: 300px; /* Adjust size to fit better */
+        background-size: 150px;
     }
 
     .container .circle::after {
@@ -217,9 +217,7 @@ body {
     }
 
     .container::before {
-        height: 150px; /* Increased height to show the full tree */
-        background: url(tree.png) no-repeat bottom center; /* Adjust position */
-        background-size: contain; /* Adjust the size to contain the full image */
+        height: 100px;
     }
 
     footer p {
