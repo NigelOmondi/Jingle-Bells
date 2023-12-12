@@ -202,8 +202,8 @@ body {
     }
 
     .container .circle::before {
-        inset: -100px -150px;
-        background-size: 200px;
+        /* inset: -100px -150px; */
+        background-size: 150px;
     }
 
     .container .circle::after {
