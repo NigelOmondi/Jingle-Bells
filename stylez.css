@@ -179,8 +179,15 @@ body {
     }
 
     .container .circle::after {
-        inset: 215px -95px;
+        content: 'Merry Christmas To all ALX Software Engineers 2023';
+        position: absolute;
+        left: 50%;
+        inset: 300px -95px;
         font-size: 2em;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        color: #fff;
     }
 
     .container::before {
@@ -202,17 +209,17 @@ body {
     .container .circle::after {
         content: 'Merry Christmas To all ALX Software Engineers 2023';
         position: absolute;
-        top: 50%; /* Center vertically */
-        left: 50%; /* Center horizontally */
-        transform: translate(-50%, -50%);
-        width: 80%; /* Adjust width as needed */
-        text-align: center;
-        font-size: 1.5em; /* Adjust font size for mobile */
+        inset: 200px -125px;
+        font-size: 1.5em;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        color: #fff;
     }
 
     .container::before {
         height: 100px;
-        background-size: cover; /* Ensure the tree image covers the area */
-        background-position: bottom; /* Align the image to the bottom */
+        background-size: cover;
+        background-position: bottom;
     }
 }
